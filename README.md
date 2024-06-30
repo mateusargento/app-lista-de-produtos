@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+# App Lista de Produtos
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+O aplicativo foi desenvolvido para estudar React Native. Ele cria uma lista de produtos pelo código de barras e nome do produto informados.
 
-## Get started
+## Funcionalidades do aplicativo
+- Cadastro, exclusão e visualização de produtos
+- Leitura do código de barras com a câmera
+- Login por senha ou biometria
+- Pesquisa
+- Tema
+<br/><br/>
 
-1. Install dependencies
+## Tecnologias utilizadas
+**Front-end:** React Native, TypeScript, StyleSheet
 
-   ```bash
-   npm install
-   ```
+**Framework:** [Expo](https://github.com/expo/expo)
+<br/><br/>
 
-2. Start the app
+## Apresentação
 
-   ```bash
-    npx expo start
-   ```
+### Cadastro de Produto
+![Cadastro de Produto](https://raw.githubusercontent.com/mateusargento/app-lista-de-produtos/main/assets/gifs/cadastro-de-produto.gif)
 
-In the output, you'll find options to open the app in a
+### Excluir Produto
+![Excluir Produto](https://raw.githubusercontent.com/mateusargento/app-lista-de-produtos/main/assets/gifs/excluir-produto.gif)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Login
+![Login](https://raw.githubusercontent.com/mateusargento/app-lista-de-produtos/main/assets/gifs/login.gif)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Pesquisa
+![Pesquisa](https://raw.githubusercontent.com/mateusargento/app-lista-de-produtos/main/assets/gifs/pesquisa.gif)
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Tema
+![Tema](https://raw.githubusercontent.com/mateusargento/app-lista-de-produtos/main/assets/gifs/tema.gif)
